@@ -1,0 +1,91 @@
+@font-face {
+    font-family: 'ralewayregular';
+    src: url('Fonts/Raleway_regular/raleway-regular-webfont.woff2') format('woff2'),
+         url('Fonts/Raleway_regular/raleway-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'ralewaybold';
+    src: url('Fonts/Raleway_bold/raleway-bold-webfont.woff2') format('woff2'),
+         url('Fonts/Raleway_bold/raleway-bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+body
+{
+    background-color: white;
+    font-family: 'ralewayregular', serif;
+    color: black;
+    margin: 0;
+}
+
+#bloc_page
+{
+    margin: 0 50px;
+}
+
+a
+{
+    text-decoration: none;
+    color: black;
+}
+
+header
+{
+    display: flex;
+    height: 130px;
+}
+
+#logo
+{
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+
+#logo img
+{
+    height: 50px;
+}
+
+nav 
+{
+    display: flex;
+    align-items: center;
+}
+
+.nav
+{
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    height: 99%;
+    width: 150px;
+}
+
+.nav:hover
+{
+    border-top: 2px solid #0065FC;
+    position: relative;
+    bottom: 1px;
+    color: #0065FC;
+}
+
+
+.bleu
+{
+    font-family: 'ralewaybold', serif;
+    color: #0065FC;
+}
+
+.bleu:hover
+{
+    border-top: 2px solid #0065FC;
+    position: relative;
+    bottom: 1px;
+}
