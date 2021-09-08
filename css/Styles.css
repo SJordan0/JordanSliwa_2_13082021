@@ -300,11 +300,17 @@ button
     font-size: 12px;
 }
 
-mark
+.annonce a:hover
+{
+    color: #0065FC;
+}
+
+em
 {
     font-family: 'ralewaybold', serif;
     background-color: white;
 }
+
 
 .annonce i
 {
@@ -348,6 +354,11 @@ mark
 .annoncepop a
 {
     display: block;
+}
+
+.annoncepop a:hover
+{
+    color: #0065FC;
 }
 
 .annoncepop_content
@@ -427,6 +438,11 @@ mark
     box-shadow: 2px 2px 10px #d9d9d9;
 }
 
+.activiteseul a:hover
+{
+   color: #0065FC;
+}
+
 .activiteseul img
 {
     height: 385px;
@@ -452,6 +468,11 @@ mark
 .activitedouble a
 {
     display: block;
+}
+
+.activitedouble a:hover
+{
+    color: #0065FC;
 }
 
 #Fort
@@ -533,4 +554,9 @@ footer
 .listefooter a
 {
     line-height: 1.8;
+}
+
+.listefooter a:hover
+{
+    color: #0065FC;
 }
