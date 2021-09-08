@@ -233,10 +233,12 @@ button
     width: 66%;
     background-color: #F2F2F2;
     border-radius: 20px;
-    padding-left: 41px;
-    padding-top: 47px;
-    padding-right: 40px;
-    
+    padding: 47px 40px 12px 41px;
+}
+
+#Hebergements a:hover
+{
+    color: #0065FC;
 }
 
 #Annonces
@@ -300,10 +302,6 @@ button
     font-size: 12px;
 }
 
-.annonce a:hover
-{
-    color: #0065FC;
-}
 
 em
 {
