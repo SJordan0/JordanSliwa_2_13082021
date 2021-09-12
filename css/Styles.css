@@ -37,6 +37,11 @@ a
     color: black;
 }
 
+#logo a
+{
+    display: block;
+}
+
 .header_content
 {
     display: flex;
@@ -189,7 +194,7 @@ button
     border-radius: 0 25px 25px 0;
     border-left: none;
     height: 46px;
-    padding: 0 20px 0 35px;
+    padding: 0 10px 0 35px;
     margin: 0;
 }
 
@@ -302,7 +307,6 @@ button
     font-size: 12px;
 }
 
-
 em
 {
     font-family: 'ralewaybold', serif;
@@ -318,6 +322,11 @@ em
 .annonce span i
 {
     color: #D9D9D9;
+}
+
+#afficherplus
+{
+    margin-left: 10px;
 }
 
 #populaire
@@ -415,7 +424,7 @@ em
 
 #Activites
 {
-    margin-top: 65px;
+    margin-top: 60px;
     margin-bottom: 60px;
 }
 
@@ -557,4 +566,210 @@ footer
 .listefooter a:hover
 {
     color: #0065FC;
+}
+
+@media (max-width: 425px)
+{
+    #logo
+    {
+        margin-left: 20px;
+    }
+    .header_content
+    {
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+    nav
+    {
+        order: 1;
+    }
+
+    .nav
+    {
+        padding: 0 40px 10px 50px;
+        width: 100%;
+        border-bottom: 2px solid #F2F2F2;
+    }
+
+    .nav:hover
+    {
+        border-top: none;
+        position: relative;
+        border-bottom: 2px solid #0065FC;
+        top: 2px;
+    }
+
+    .inscrire
+    {
+        margin-right: 20px;
+    }
+
+    .search_filtre
+    {
+        margin: 30px 20px 0 20px;
+    }
+
+    button
+    {
+        width: 15%;
+    }
+
+    #Filtres
+    {
+        flex-wrap: wrap;
+    }
+    
+    #Filtres h3
+    {
+        width: 100%;
+    }
+
+    .Filtre
+    {
+        margin: 6px;
+    }
+
+    #info
+    {
+        margin-left: 20px;
+    }
+
+    #offres
+    {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #populaire
+    {
+        order: -1;
+        width: 100%;
+        padding: 0;
+        margin-bottom: 30px;
+        border-radius: 0;
+    }
+
+    #titrepop
+    {
+        margin-top: 30px;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+
+    .annoncespop
+    {
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+
+    #Hebergements
+    {
+        width: 100%;
+        background-color: white;
+        padding: 0;
+        margin: 0;
+    }
+
+    #Hebergements h2
+    {
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+    
+    #afficherplus
+    {
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+    
+    #Annonces
+    {
+        margin-left: 20px;
+        margin-right: 20px;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .annonce
+    {
+        width: 100%;
+    }
+
+    #Activites
+    {
+        margin-left: 20px;
+        margin-right: 20px;
+        margin-bottom: 40px;
+    }
+
+    #Bloc_activites
+    {
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .activiteseul
+    {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .activiteseul img
+    {
+        height: 125px;
+    }
+
+    .activitedouble
+    {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    #Fort
+    {
+        margin-bottom: 20px;
+    }
+
+    #Fort img
+    {
+        height: 125px;
+    }
+
+    #iles img
+    {
+        height: 125px;
+    }
+
+    #Dame
+    {
+        margin-bottom: 20px;
+    }
+
+    #Dame img 
+    {
+        height: 125px;
+    }
+
+    #Parc img 
+    {
+        height: 125px;
+    }
+
+    footer
+    {
+        padding: 0 0 30px 0;
+    }
+
+    .footer_content
+    {
+        flex-direction: column;
+        margin-left: 20px;
+    }
+
+    .listefooter
+    {
+        width: 100%;
+        margin-top: 20px;
+    }
 }
