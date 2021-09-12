@@ -371,7 +371,6 @@ em
 .annoncepop_content
 {
     display: flex;
-    justify-content: space-around;
     align-items: center;
     border-radius: 20px;
     height: 144px;
@@ -438,7 +437,6 @@ em
 {
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
     border-radius: 20px;
     width: 23%;
     background-color: white; 
@@ -568,12 +566,142 @@ footer
     color: #0065FC;
 }
 
+@media (min-width:426px) and (max-width: 768px)
+{
+    .container {
+        max-width: 718px;
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    #offres
+    {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #populaire
+    {
+        order: -1;
+        width: 100%;
+        padding: 0;
+        margin-bottom: 30px;
+    }
+
+    #titrepop
+    {
+        margin-top: 30px;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+
+    .annoncespop
+    {
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+
+    .annoncepop img 
+    {
+        width: 40%;
+    }
+
+
+    #Hebergements
+    {
+        padding: 0;
+        width: 100%;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+
+    #Hebergements h2
+    {
+        margin-top: 30px;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+
+    #Bloc_activites
+    {
+        flex-direction: column;
+        align-items: center;
+        height: 100%;
+    }
+
+    #Bloc_activites h3
+    {
+        display: flex;
+        justify-content: center;
+    }
+
+    .activiteseul
+    {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .activiteseul img
+    {
+        height: 150px;
+    }
+
+    .activitedouble
+    {
+        width: 100%;
+        flex-direction: row;
+        margin-bottom: 20px;
+    }
+
+    #Fort
+    {
+        width: 48%;
+    }
+
+    #Fort img 
+    {
+        height: 150px;
+    }
+
+    #iles 
+    {
+        width: 48%;
+    }
+
+    #iles img 
+    {
+        height: 150px;
+    }
+
+    #Dame
+    {
+        width: 48%;
+    }
+
+    #Dame img 
+    {
+        height: 150px;
+    }
+
+    #Parc 
+    {
+        width: 48%;
+    }
+
+    #Parc img 
+    {
+        height: 150px;
+    }
+}
+
 @media (max-width: 425px)
 {
     #logo
     {
         margin-left: 20px;
     }
+    
     .header_content
     {
         flex-wrap: wrap;
