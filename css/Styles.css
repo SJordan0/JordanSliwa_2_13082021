@@ -63,6 +63,12 @@ nav
     display: block;
 }
 
+.nav p
+{
+    margin: 0;
+    text-align: center;
+}
+
 .nav:hover
 {
     border-top: 2px solid #0065FC;
@@ -152,6 +158,11 @@ button
     width: 134px;
     border: none;
     font-size: 1.1em;
+}
+
+button .fas
+{
+    display: none;
 }
 
 #Filtres
@@ -566,13 +577,11 @@ footer
     color: #0065FC;
 }
 
-@media (min-width:426px) and (max-width: 768px)
+@media screen and (max-width: 991px)
 {
-    .container {
-        max-width: 718px;
-        width: 100%;
-        margin-left: auto;
-        margin-right: auto;
+    .container 
+    {
+        max-width: 100%;
     }
 
     #offres
@@ -695,11 +704,16 @@ footer
     }
 }
 
-@media (max-width: 425px)
+@media screen and (max-width: 767px)
 {
+    .container 
+    {
+        max-width: 100%;
+    }
+
     #logo
     {
-        margin-left: 20px;
+        width: 50%;
     }
     
     .header_content
@@ -711,13 +725,15 @@ footer
     nav
     {
         order: 1;
+        width: 100%;
+        flex: none;
     }
 
     .nav
     {
-        padding: 0 40px 10px 50px;
-        width: 100%;
+        padding: 0 20px 10px 20px;
         border-bottom: 2px solid #F2F2F2;
+        width: 50%;
     }
 
     .nav:hover
@@ -725,22 +741,27 @@ footer
         border-top: none;
         position: relative;
         border-bottom: 2px solid #0065FC;
-        top: 2px;
-    }
 
-    .inscrire
-    {
-        margin-right: 20px;
     }
 
     .search_filtre
     {
-        margin: 30px 20px 0 20px;
+        margin-top: 30px;
     }
 
     button
     {
         width: 15%;
+    }
+
+    button span
+    {
+        display: none;
+    }
+
+    button .fas
+    {
+        display: inline-block;
     }
 
     #Filtres
@@ -756,11 +777,6 @@ footer
     .Filtre
     {
         margin: 6px;
-    }
-
-    #info
-    {
-        margin-left: 20px;
     }
 
     #offres
@@ -781,14 +797,11 @@ footer
     #titrepop
     {
         margin-top: 30px;
-        margin-left: 20px;
-        margin-right: 20px;
     }
 
-    .annoncespop
+    .texte .note
     {
-        margin-left: 20px;
-        margin-right: 20px;
+        margin-top: 0;
     }
 
     #Hebergements
@@ -798,23 +811,9 @@ footer
         padding: 0;
         margin: 0;
     }
-
-    #Hebergements h2
-    {
-        margin-left: 20px;
-        margin-right: 20px;
-    }
-    
-    #afficherplus
-    {
-        margin-left: 20px;
-        margin-right: 20px;
-    }
     
     #Annonces
     {
-        margin-left: 20px;
-        margin-right: 20px;
         flex-direction: column;
         align-items: center;
     }
@@ -826,8 +825,6 @@ footer
 
     #Activites
     {
-        margin-left: 20px;
-        margin-right: 20px;
         margin-bottom: 40px;
     }
 
@@ -854,11 +851,6 @@ footer
         margin-bottom: 20px;
     }
 
-    #Fort
-    {
-        margin-bottom: 20px;
-    }
-
     #Fort img
     {
         height: 125px;
@@ -867,11 +859,6 @@ footer
     #iles img
     {
         height: 125px;
-    }
-
-    #Dame
-    {
-        margin-bottom: 20px;
     }
 
     #Dame img 
@@ -892,7 +879,6 @@ footer
     .footer_content
     {
         flex-direction: column;
-        margin-left: 20px;
     }
 
     .listefooter
@@ -900,4 +886,10 @@ footer
         width: 100%;
         margin-top: 20px;
     }
+}
+
+@media screen and (max-width: 576px)
+{
+    
+
 }
