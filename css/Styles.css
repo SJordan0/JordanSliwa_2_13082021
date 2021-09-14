@@ -24,7 +24,7 @@ body
     margin: 0;
 }
 
-::before, *::after 
+* 
 {
     box-sizing: border-box;
 }
@@ -209,7 +209,7 @@ button .fas
     border: 2px solid #D9D9D9;
     border-radius: 0 25px 25px 0;
     border-left: none;
-    height: 46px;
+    height: 50px;
     padding: 0 10px 0 35px;
     margin: 0;
 }
@@ -295,7 +295,7 @@ button .fas
 {
     align-self: center;
     height: 114px;
-    width: 95%;
+    width: 100%;
     object-fit: cover;
     border: 5px solid white;
     border-radius: 15px 15px 0 0;
@@ -350,7 +350,7 @@ em
     display: flex;
     flex-direction: column;
     width: 31%;
-    padding-top: 40px;
+    padding-top: 20px;
     padding-left: 37px;
     padding-right: 37px;
     background-color: #F2F2F2;
@@ -399,7 +399,7 @@ em
 {  
     display: flex;
     width: 35%;
-    height: 93%;
+    height: 100%;
     object-fit: cover;
     border-radius: 20px 0 0 20px;
     border: 5px solid white;
@@ -634,9 +634,8 @@ footer
 
     #Hebergements h2
     {
+        margin-left: 15px;
         margin-top: 30px;
-        margin-left: 20px;
-        margin-right: 20px;
     }
 
     #Bloc_activites
@@ -790,10 +789,6 @@ footer
 
     #populaire
     {
-        order: -1;
-        width: 100%;
-        padding: 0;
-        margin-bottom: 30px;
         border-radius: 0;
     }
 
@@ -839,7 +834,6 @@ footer
 
     .activiteseul
     {
-        width: 100%;
         margin-bottom: 20px;
     }
 
@@ -850,6 +844,11 @@ footer
 
     .activitedouble
     {
+        flex-direction: column;
+    }
+
+    #Fort
+    {
         width: 100%;
         margin-bottom: 20px;
     }
@@ -859,14 +858,31 @@ footer
         height: 125px;
     }
 
+    #iles
+    {
+        width: 100%;
+    }
+
     #iles img
     {
         height: 125px;
     }
 
+    #Dame
+    {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
     #Dame img 
     {
         height: 125px;
+    }
+
+
+    #Parc
+    {
+        width: 100%;
     }
 
     #Parc img 
