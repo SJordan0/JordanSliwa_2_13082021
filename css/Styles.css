@@ -716,6 +716,8 @@ footer
     .container
     {
         padding: 0;
+        padding-left: 15px;
+        padding-right: 15px;
     }
     
     #logo
@@ -728,6 +730,8 @@ footer
     {
         flex-wrap: wrap;
         justify-content: space-between;
+        margin-left: -15px;
+        margin-right: -15px;
     }
 
     nav
@@ -743,13 +747,13 @@ footer
         padding: 0 20px 10px 20px;
         border-bottom: 2px solid #F2F2F2;
         width: 50%;
+        border-top: none;
     }
 
     .nav:hover
     {
         border-top: none;
-        position: relative;
-        border-bottom: 2px solid #0065FC;
+        border-bottom-color: #0065FC;
     }
 
     .inscrire
@@ -760,8 +764,6 @@ footer
     .search_filtre
     {
         margin-top: 30px;
-        padding-left: 15px;
-        padding-right: 15px;
     }
 
     button
@@ -794,16 +796,13 @@ footer
         margin: 6px;
     }
 
-    #info
-    {
-        padding-left: 15px;
-        padding-right: 15px;
-    }
 
     #offres
     {
         flex-direction: column;
         align-items: center;
+        margin-left: -15px;
+        margin-right: -15px;
     }
 
     #populaire
@@ -817,18 +816,12 @@ footer
         margin-top: 30px;
     }
 
-    .texte .note
-    {
-        margin-top: 20;
-    }
-
     #Hebergements
     {
-        width: 100%;
         background-color: white;
-        padding-left: 15px;
-        padding-right: 15px;
         margin: 0;
+        padding-right: 15px;
+        padding-left: 15px;
     }
 
     #Hebergements h2
@@ -850,8 +843,6 @@ footer
     #Activites
     {
         margin-bottom: 40px;
-        padding-left: 15px;
-        padding-right: 15px;
     }
 
     #Bloc_activites
@@ -920,7 +911,7 @@ footer
 
     footer
     {
-        padding: 0 15px 30px 15px;
+        padding: 0 0 30px 0;
     
     }
 
